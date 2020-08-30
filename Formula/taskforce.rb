@@ -6,7 +6,7 @@ class Taskforce < Formula
   version "0.0.2"
   sha256 "75ddd2c32ae8ed15412f8cce127776b9062b683d1fe55f66a8f6adf8622a020b"
 
-  depends_on "go@1.14" => :build
+  depends_on "go@1.15" => :build
 
   def install
     system "make", "build"
