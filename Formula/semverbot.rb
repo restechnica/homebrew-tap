@@ -1,4 +1,4 @@
-VERSION = "0.0.3"
+VERSION = "0.0.4"
 
 class Semverbot < Formula
   desc "A CLI which automates semver versioning."
@@ -6,7 +6,7 @@ class Semverbot < Formula
   license "MPL-2.0"
   url "https://github.com/restechnica/semverbot/archive/v#{VERSION}.tar.gz"
   version VERSION
-  sha256 "42DE3817E14D22AB57E7F4599CAFC7E477EC279FF22227F48E0883C022E67630"
+  sha256 "3ff1be57ca9d6658c00bd786def8dc2d807e1831f046883eab41c02e0e5668e6"
 
   depends_on "go" => :build
 
