@@ -6,7 +6,7 @@ class Semverbot < Formula
   license "MPL-2.0"
   url "https://github.com/restechnica/semverbot/archive/v#{VERSION}.tar.gz"
   version VERSION
-  sha256 "5840b98567c70431f26bf4a716e3742b9b063176fedc2f8c4807a1858128f8a9" # on windows use `CertUtil -hashfile <file location> SHA256`
+  sha256 "6dc2449b7b3c18b3ebaf2529480431c8884c7bbb618a586bdfbd305d174ea7f6" # on windows use `CertUtil -hashfile <file location> SHA256`
 
   depends_on "go" => :build
 
