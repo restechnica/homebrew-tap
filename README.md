@@ -8,7 +8,7 @@ Homebrew tap for Restechnica.
 
 ```shell
 brew tap restechnica/tap https://github.com/restechnica/homebrew-tap.git
-brew install nrestechnica/tap/<formula>
+brew install restechnica/tap/<formula>
 ```
 
 ### SSH
