@@ -11,7 +11,7 @@ class Semverbot < Formula
   depends_on "go" => :build
 
   def install
-    system "make", "build"
+    system "make", "simple-build"
     bin.install "bin/sbot"
   end
 end
