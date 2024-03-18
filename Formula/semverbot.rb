@@ -14,7 +14,7 @@ class Semverbot < Formula
   depends_on "nushell" => :build
 
   def install
-    system "nu", "run.nu", "build", "--version", VERSION
+    system "nu", "main.nu", "build", "--version", VERSION
     bin.install "bin/sbot"
   end
 end
