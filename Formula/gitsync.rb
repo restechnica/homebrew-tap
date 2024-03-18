@@ -13,6 +13,6 @@ class Gitsync < Formula
 
   def install
     system "nu", "main.nu", "build", "--version", VERSION
-    bin.install "bin/sbot"
+    bin.install "bin/gitsync"
   end
 end
