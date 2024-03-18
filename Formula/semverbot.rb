@@ -1,4 +1,4 @@
-VERSION = "1.6.2"
+VERSION = "1.6.3"
 
 class Semverbot < Formula
   desc "A CLI which automates semver versioning."
@@ -8,7 +8,7 @@ class Semverbot < Formula
   version VERSION
   # on windows use `CertUtil -hashfile <file location> SHA256`
   # on macos: shasum -a 256 /path/to/file
-  sha256 "fa23bce6d2fa0aa35203f9263a025aebc46c40433003f0360ddc4cb4a4554c02"
+  sha256 "ce00065bf5781ef602782de4f52feadc788c94dfefcdc5a3d54935e180f78c8e"
 
   depends_on "go" => :build
   depends_on "nushell" => :build
