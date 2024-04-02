@@ -9,6 +9,8 @@ def "main sha" [--repo: string, --tag: string] {
     } else {
         shasum -a 256 ($tar_file_path)
     }
+
+    rm -f ($tar_file_path)
 }
 
 def main [] {}

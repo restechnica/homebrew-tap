@@ -6,7 +6,7 @@ class Gitsync < Formula
   license "MPL-2.0"
   url "https://github.com/restechnica/gitsync-cli/archive/refs/tags/v#{VERSION}.tar.gz"
   version VERSION
-  sha256 "e13f637eeabab3178c4e3555524bdff34e7db25b6593b6add77d5b30d1cdfbf8" #
+  sha256 "e13f637eeabab3178c4e3555524bdff34e7db25b6593b6add77d5b30d1cdfbf8"
 
   depends_on "go" => :build
   depends_on "nushell" => :build
