@@ -1,4 +1,4 @@
-VERSION = "0.5.0"
+VERSION = "0.5.1"
 
 class Gitsync < Formula
   desc "A CLI to sync git repositories."
@@ -6,7 +6,7 @@ class Gitsync < Formula
   license "MPL-2.0"
   url "https://github.com/restechnica/gitsync-cli/archive/refs/tags/v#{VERSION}.tar.gz"
   version VERSION
-  sha256 "7bf08d41ceab689fb4c61c4a0aac05343ffe73cf8d3f64c517d60240c200eed6" # on windows use `CertUtil -hashfile <file location> SHA256`
+  sha256 "e13f637eeabab3178c4e3555524bdff34e7db25b6593b6add77d5b30d1cdfbf8" #
 
   depends_on "go" => :build
   depends_on "nushell" => :build
