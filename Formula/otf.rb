@@ -1,6 +1,6 @@
 VERSION = "0.1.0"
 
-class OpinionatedTerraform < Formula
+class Otf < Formula
   desc "A lightweight opinionated wrapper around Terraform."
   homepage "https://github.com/restechnica/opinionated-terraform"
   license "MIT"
