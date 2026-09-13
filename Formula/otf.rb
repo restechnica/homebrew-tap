@@ -1,4 +1,4 @@
-VERSION = "0.1.1"
+VERSION = "0.1.2"
 
 class Otf < Formula
   desc "A lightweight opinionated wrapper around Terraform."
@@ -6,7 +6,7 @@ class Otf < Formula
   license "MIT"
   url "https://github.com/restechnica/opinionated-terraform/archive/refs/tags/v#{VERSION}.tar.gz"
   version VERSION
-  sha256 "d452ae3ef4dfe60247118f9d2e04ec50a709079fa6370ba2e8a47b2cbb5a5721"
+  sha256 "e7b3c990de54f0d998051c5fca59b6f01b88572acc46e678551cfca4dede4be1"
 
   depends_on "go" => :build
   depends_on "nushell" => :build
